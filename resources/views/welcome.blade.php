@@ -48,6 +48,7 @@
                 display: flex;
                 flex-wrap: wrap;
                 align-items: center;
+                justify-content: space-between;
             }
 
 
@@ -89,7 +90,7 @@
             }
 
 
-            .bloco-curso{
+            .curso{
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
@@ -97,7 +98,7 @@
             }
 
 
-            .footer-gray{
+            .gray{
                 width: 100%; 
                 height: 75px; 
                 display: flex; 
@@ -109,7 +110,7 @@
             }
 
 
-            .footer-black{
+            .black{
                 background: black; 
                 width: 100%; 
                 height: 35px;
@@ -123,10 +124,10 @@
 
 
     <body style="margin: 0 auto; display: flex; flex-direction: column; justify-content: center; align-items: center">
-        <div class="line-top"></div>
-        <header class="container-top">
+        <div class="line1"></div>
+        <header class="container1">
             <div style="width: 100%; height: 100%; display: flex; align-items: center">   
-                <img src="{{ asset('img/logoumfg.png') }}" alt="">
+                <img style="margin-left: 20px" src="{{ asset('img/logoumfg.png') }}" alt="">
                 <div style="width: 1px; background: gray; height: 70%"></div>
                 <p style="margin-left: 13px; font-weight: bold">INFO</p>
             </div>
@@ -141,42 +142,42 @@
             </div>
 
             <div class="container-noticias-umfg">
-                <div class="noticias">
+                <div class="noticias-umfg">
                     <img src="{{ asset('img/img-antimanicomial.jpg') }}" alt="">
                     <h2 class="text-title-noticias">DIA DA LUTA ANTIMANICOMIAL</h2>
                     <p>05/02/2023</p>
                     <p style="margin-top: 10px">A data, que integra o movimento da reforma psiquiátrica no Brasil, busca, sobretudo, combater o estigma e a exclusão de pessoas com sofrimento psíquico grave, em nome de pretensos tratamentos, garantindo-lhes direitos.</p>
                 </div>
 
-                <div class="noticias">
+                <div class="noticias-umfg">
                     <img src="{{ asset('img/img-antimanicomial.jpg') }}" alt="">
                     <h2 class="text-title-noticias">DIA DA LUTA ANTIMANICOMIAL</h2>
                     <p>05/02/2023</p>
                     <p style="margin-top: 10px">A data, que integra o movimento da reforma psiquiátrica no Brasil, busca, sobretudo, combater o estigma e a exclusão de pessoas com sofrimento psíquico grave, em nome de pretensos tratamentos, garantindo-lhes direitos.</p>
                 </div>
 
-                <div class="noticia">
+                <div class="noticias-umfg">
                     <img src="{{ asset('img/img-antimanicomial.jpg') }}" alt="">
                     <h2 class="text-title-noticias">DIA DA LUTA ANTIMANICOMIAL</h2>
                     <p>05/02/2023</p>
                     <p style="margin-top: 10px">A data, que integra o movimento da reforma psiquiátrica no Brasil, busca, sobretudo, combater o estigma e a exclusão de pessoas com sofrimento psíquico grave, em nome de pretensos tratamentos, garantindo-lhes direitos.</p>
                 </div>
 
-                <div class="noticia">
+                <div class="noticias-umfg">
                     <img src="{{ asset('img/img-antimanicomial.jpg') }}" alt="">
                     <h2 class="text-title-noticias">DIA DA LUTA ANTIMANICOMIAL</h2>
                     <p>05/02/2023</p>
                     <p style="margin-top: 10px">A data, que integra o movimento da reforma psiquiátrica no Brasil, busca, sobretudo, combater o estigma e a exclusão de pessoas com sofrimento psíquico grave, em nome de pretensos tratamentos, garantindo-lhes direitos.</p>
                 </div>
 
-                <div class="noticia">
+                <div class="noticias-umfg">
                     <img src="{{ asset('img/img-antimanicomial.jpg') }}" alt="">
                     <h2 class="text-title-noticias">DIA DA LUTA ANTIMANICOMIAL</h2>
                     <p>05/02/2023</p>
                     <p style="margin-top: 10px">A data, que integra o movimento da reforma psiquiátrica no Brasil, busca, sobretudo, combater o estigma e a exclusão de pessoas com sofrimento psíquico grave, em nome de pretensos tratamentos, garantindo-lhes direitos.</p>
                 </div>
 
-                <div class="noticia">
+                <div class="noticias-umfg">
                     <img src="{{ asset('img/img-antimanicomial.jpg') }}" alt="">
                     <h2 class="text-title-noticias">DIA DA LUTA ANTIMANICOMIAL</h2>
                     <p>05/02/2023</p>
@@ -192,35 +193,35 @@
             </div>
 
             <div class="container-curso">
-                <div class="blocos-cursos">
+                <div class="curso">
                     <img src="{{ asset('img/adm.png') }}" alt="">
-                    <h3 class="title-cianorte">CIANORTE</h3>
-                    <h2 class="title-cursos">Administração</h2>
-                    <p class="descricao-cursos">Formação profissional de alto nível, com capacidade crítica e reflexiva de suas ações e consciente de suas responsabilidades.</p>
+                    <h3 class="titulo-cianorte">CIANORTE</h3>
+                    <h2 class="titulo-cursos">Administração</h2>
+                    <p class="descricao-curso">Formação profissional de alto nível, com capacidade crítica e reflexiva de suas ações e consciente de suas responsabilidades.</p>
                 </div>
 
-                <div class="bloco-curso">
+                <div class="curso">
                     <img src="{{ asset('img/fisio.png') }}" alt="">
-                    <h3 class="title-cianorte">CIANORTE</h3>
-                    <h2 class="title-cursos">Fisioterapia</h2>
-                    <p class="descricao-cursos">Formação profissional de alto nível, com capacidade crítica e reflexiva de suas ações e consciente de suas responsabilidades.</p>
+                    <h3 class="titulo-cianorte">CIANORTE</h3>
+                    <h2 class="titulo-cursos">Fisioterapia</h2>
+                    <p class="descricao-curso">Formação profissional de alto nível, com capacidade crítica e reflexiva de suas ações e consciente de suas responsabilidades.</p>
                 </div>
 
-                <div class="bloco-curso">
+                <div class="curso">
                     <img src="{{ asset('img/ads.png') }}" alt="">
-                    <h3 class="title-cianorte">CIANORTE</h3>
-                    <h2 class="title-cursos">ADS</h2>
-                    <p class="descricao-cursos">Formação profissional de alto nível, com capacidade crítica e reflexiva de suas ações e consciente de suas responsabilidades.</p>
+                    <h3 class="titulo-cianorte">CIANORTE</h3>
+                    <h2 class="titulo-cursos">ADS</h2>
+                    <p class="descricao-curso">Formação profissional de alto nível, com capacidade crítica e reflexiva de suas ações e consciente de suas responsabilidades.</p>
                 </div>
 
             </div>
         </div>
 
-        <div class="footer-gray">   
+        <div class="gray">   
             <img style="width: 128px; height: 60px" src="{{ asset('img/logoumfgbranco.png') }}" alt="">
         </div>
 
-        <div class="footer-black">
+        <div class="black">
             <p style="color: white; font-size: 10px">© 2020-2023 UMFG. Todos os direitos reservados.</p>
         </div>
 
